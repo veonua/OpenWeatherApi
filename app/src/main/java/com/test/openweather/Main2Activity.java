@@ -17,7 +17,7 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 import com.test.openweather.error.ErrorHandler;
 import com.test.openweather.error.SnackOnError;
-import com.test.openweather.myapplication.R;
+import com.test.openweather.R;
 import com.test.openweather.models.City;
 import com.test.openweather.models.Forecast;
 import com.test.openweather.models.OpenWeatherList;
@@ -58,11 +58,10 @@ public class Main2Activity extends AppCompatActivity {
         }
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(view -> {
-            Snackbar.make(view, "Here might be an append dialog, but now today", Snackbar.LENGTH_LONG)
-                    .setAction("Is it sunny in Barcelona?", view1 -> addCity(3128760, "Barcelona"))
-                    .show();
-        });
+        fab.setOnClickListener(view ->
+                Snackbar.make(view, "Here might be an append dialog, but now today", Snackbar.LENGTH_LONG)
+                .setAction("Is it sunny in Barcelona?", v -> addCity(3128760, "Barcelona"))
+                .show());
 
         list = (RecyclerView) findViewById(R.id.list);
     }

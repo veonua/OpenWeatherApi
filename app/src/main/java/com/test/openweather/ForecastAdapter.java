@@ -10,7 +10,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.squareup.picasso.Picasso;
-import com.test.openweather.myapplication.R;
+import com.test.openweather.R;
 import com.test.openweather.models.Forecast;
 
 import java.util.ArrayList;

@@ -1,4 +1,4 @@
-package com.test.openweather.myapplication;
+package com.test.openweather;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

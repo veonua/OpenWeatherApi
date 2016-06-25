@@ -1,4 +1,4 @@
-package com.test.openweather.myapplication;
+package com.test.openweather;
 
 import org.junit.Test;
 
