@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Open Weather</string>
+    <string name="main_format">%1$.1f°C, %2$s</string>
+</resources>
